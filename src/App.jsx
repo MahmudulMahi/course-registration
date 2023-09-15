@@ -9,7 +9,8 @@ function App() {
 const [bookmarks,setBookmarks]=useState([])
 
 const handleAddTOBookmark =blog =>{
-  console.log("add")
+  const newBookmarks =[...bookmarks,blog]
+  setBookmarks(newBookmarks)
 }
   return (
     <>
@@ -17,7 +18,7 @@ const handleAddTOBookmark =blog =>{
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12'>
      
         <Blogs handleAddTOBookmark={handleAddTOBookmark}></Blogs>
-        <Bookmarks></Bookmarks>
+        <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
     </>
   )

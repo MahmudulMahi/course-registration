@@ -15,7 +15,7 @@ const Blog = ({ blog,handleAddTOBookmark }) => {
           <div className='flex items-center gap-4'><FaBookOpen /> Credit: {credit} hr</div>
         </div>
         <div className="card-actions justify-center">
-          <button onClick={handleAddTOBookmark} className="btn btn-primary w-full">Select</button>
+          <button onClick={() => handleAddTOBookmark (blog)} className="btn btn-primary w-full">Select</button>
         </div>
       </div>
     </div>
