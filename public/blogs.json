@@ -1,0 +1,78 @@
+
+
+
+
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/djKW4gG/Rectangle-3-1.png",
+    "course_name": "Introduction to Programming",
+    "credit": 3,
+    "price": 299.99,
+    "course_details": "Learn the fundamentals of programming and problem-solving."
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/M6HGQNX/Rectangle-2.png",
+    "course_name": "Web Development Basics",
+    "credit": 4,
+    "price": 399.99,
+    "course_details": "Build your first websites using HTML, CSS, and JavaScript."
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/71VPtMK/Rectangle-2-1.png",
+    "course_name": "Data Science Essentials",
+    "credit": 5,
+    "price": 499.99,
+    "course_details": "Explore data analysis, visualization, and machine learning basics."
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/kGnQy3j/Rectangle-2-2.png",
+    "course_name": "Digital Marketing Mastery",
+    "credit": 3,
+    "price": 349.99,
+    "course_details": "Learn effective online marketing strategies and tools."
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/37g2hDs/Rectangle-2-3.png",
+    "course_name": "Graphic Design Fundamentals",
+    "credit": 2,
+    "price": 249.99,
+    "course_details": "Create stunning visuals with Adobe Photoshop and Illustrator."
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/LkpkC4P/Rectangle-2-4.png",
+    "course_name": "Ethical Hacking 101",
+    "credit": 4,
+    "price": 499.99,
+    "course_details": "Become an ethical hacker and secure computer systems."
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/hm4nvjD/Rectangle-2-5.png",
+    "course_name": "Business Management Basics",
+    "credit": 3,
+    "price": 299.99,
+    "course_details": "Gain essential skills for effective business leadership."
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/60YLfRr/Rectangle-2-6.png",
+    "course_name": "Photography Fundamentals",
+    "credit": 2,
+    "price": 199.99,
+    "course_details": "Capture great photos with your DSLR or smartphone."
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/z4mRLLS/Rectangle-3.png",
+    "course_name": "Artificial Intelligence Fundamentals",
+    "credit": 5,
+    "price": 599.99,
+    "course_details": "Explore AI concepts, algorithms, and applications."
+  }
+]
