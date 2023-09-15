@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FaBookOpen } from 'react-icons/fa';
 import { FiDollarSign } from "react-icons/fi";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog,handleAddTOBookmark }) => {
   const { course_name, img, course_details, price, credit } = blog
   return (
     <div className="card bg-base-100 shadow-xl">
@@ -15,7 +15,7 @@ const Blog = ({ blog }) => {
           <div className='flex items-center gap-4'><FaBookOpen /> Credit: {credit} hr</div>
         </div>
         <div className="card-actions justify-center">
-          <button className="btn btn-primary w-full">Select</button>
+          <button onClick={handleAddTOBookmark} className="btn btn-primary w-full">Select</button>
         </div>
       </div>
     </div>
