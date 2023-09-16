@@ -17,17 +17,22 @@ const handleAddTOBookmark =blog =>{
   
   let count=blog.credit
   if (isExist){
-    return alert("already has")
+    return alert("Already Setected this card")
   }
   else{
     bookmarks.forEach(item=>{
       count=count+item.credit
     })
     const totalremaing=20-count
-    settotalcredit(count)
-    setremaing(totalremaing)
-    const newBookmarks =[...bookmarks,blog]
-    setBookmarks(newBookmarks)
+    if (count > 20){
+      return alert("Total credit will not more than 20")
+    }else{
+      settotalcredit(count)
+      setremaing(totalremaing)
+      const newBookmarks =[...bookmarks,blog]
+      setBookmarks(newBookmarks)
+    }
+   
   }
 }
   return (

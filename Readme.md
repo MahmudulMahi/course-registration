@@ -1,8 +1,17 @@
-# React + Vite
+▶ Add at least 3 Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+•Here show 9 card this card hole course data.
 
-Currently, two official plugins are available:
+•When clicket button select course name and show it in cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+•When clicked Select button add credit hour increased and remaing  hour decrease.
+
+•when credit hour will be 20 show alert.
+
+•when one course select 2 time show alert.
+
+▶Discuss how you managed the state in your assignment project.
+
+▶At first i am create project amd install react ,tailwintcss and daisyui.then create fack data.i did daisyui card and fatch data form json and show it in card.and buildind components and managing state.Implement client-side routing using React Router or another routing library to create a multi-page application.Deploy  React app to a hosting service like Netlify, GitHub Pages.
+
+
