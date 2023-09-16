@@ -1,14 +1,20 @@
 import React from 'react';
 
 
-const Bookmark = ({ bookmark }) => {
+const Bookmark = ({ bookmark}) => {
  
   const { course_name } = bookmark;
+  // console.log(bookmark)
   return (
     <div className='bg-slate-100 p-4 text-black'>
-      <h3 className='text-xl'>{course_name}</h3>
+      
+      <ul className='list-disc px-2'>
+      <li>{course_name}</li>
+      </ul>
+      
      
     </div>
+    
   );
 };
 

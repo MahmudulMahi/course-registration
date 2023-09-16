@@ -8,9 +8,19 @@ import Header from './components/Header/Header'
 function App() {
 const [bookmarks,setBookmarks]=useState([])
 
+
+
 const handleAddTOBookmark =blog =>{
-  const newBookmarks =[...bookmarks,blog]
-  setBookmarks(newBookmarks)
+  const isExist=bookmarks.find((item)=> item.id == blog.id)
+  
+  
+  if (isExist){
+    alert("already has")
+  }
+  else{
+    const newBookmarks =[...bookmarks,blog]
+    setBookmarks(newBookmarks)
+  }
 }
   return (
     <>
