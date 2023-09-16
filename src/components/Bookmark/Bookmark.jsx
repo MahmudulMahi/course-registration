@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Bookmark = ({ bookmark}) => {
+const Bookmark = ({ bookmark, remaing}) => {
  
   const { course_name } = bookmark;
   // console.log(bookmark)
